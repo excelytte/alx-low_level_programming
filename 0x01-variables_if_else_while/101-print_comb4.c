@@ -17,16 +17,15 @@ int main(void)
 		{
 			for (ones = tens + 1; ones <= '9'; ones++)
 			{
-	  			if ((tens != h) != ones)
+				if ((tens != h) != ones)
 				{
 					putchar(h);
-	  				putchar(tens);
-	  				putchar(ones);
+					putchar(tens);
+					putchar(ones);
 					if (h == '7' && tens == '8')
 					continue;
 					putchar(',');
-	      				putchar(' ');
-	    			
+					putchar(' ');
 				}
 			}
 		}
