@@ -23,10 +23,11 @@ int main(void)
 	  				putchar(tens);
 	  				putchar(ones);
 					if (h == 7 && tens == 8)
-					{
-						putchar(',');
-	      					putchar(' ');
-	    				}
+					continue;
+					
+					putchar(',');
+	      				putchar(' ');
+	    				
 				}
 			}
     		}
