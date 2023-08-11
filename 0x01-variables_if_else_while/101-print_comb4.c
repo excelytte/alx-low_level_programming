@@ -14,8 +14,8 @@ int main(void)
 	for (h = '0'; h <= '9'; h++)
 	{
 		for (tens = h + 1; tens <= '9'; tens++)
-    		{
-      			for (ones = tens + 1; ones <= '9'; ones++)
+		{
+			for (ones = tens + 1; ones <= '9'; ones++)
 			{
 	  			if ((tens != h) != ones)
 				{
@@ -26,10 +26,10 @@ int main(void)
 					continue;
 					putchar(',');
 	      				putchar(' ');
-	    				
+	    			
 				}
 			}
-    		}
+		}
 	}
 	putchar('\n');
 
