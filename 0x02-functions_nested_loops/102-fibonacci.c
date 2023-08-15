@@ -15,7 +15,7 @@ int main(void)
 
 	c = 2;
 
-	for (a = 1; a <= 50; ++1)
+	for (a = 1; a <= 50; ++a)
 	{
 		if(b != 20365011074)
 		{
@@ -25,9 +25,9 @@ int main(void)
 		{
 			printf("%ld\n" ,b);
 		}
-		k = next;
-		j = k;
-		next = j + k;
+		c = next;
+		b = c;
+		next = b + c;
 	}
 
 	retuen (0);
