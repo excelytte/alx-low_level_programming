@@ -17,15 +17,15 @@ int main(void)
 
 	for (a = 1; a <= 50; ++a)
 	{
-		if(b != 20365011074)
+		if (b != 20365011074)
 		{
 			printf("%ld, ", b);
 		}
-		else 
+		else
 		{
-			printf("%ld\n" ,b);
+			printf("%ld\n", b);
 		}
-		c = next;
+		next = b + c;
 		b = c;
 		next = b + c;
 	}
