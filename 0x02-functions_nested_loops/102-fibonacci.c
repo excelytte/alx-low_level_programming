@@ -30,5 +30,5 @@ int main(void)
 		next = b + c;
 	}
 
-	retuen (0);
+	return (0);
 }
