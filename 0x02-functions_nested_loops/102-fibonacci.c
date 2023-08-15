@@ -27,7 +27,7 @@ int main(void)
 		}
 		next = b + c;
 		b = c;
-		next = b + c;
+		c = next;
 	}
 
 	return (0);
