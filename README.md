@@ -1,1 +1,1 @@
-C - Variables, If, Else, While
+This Project discussed Pointers, Arrays and Strings
