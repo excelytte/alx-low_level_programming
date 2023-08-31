@@ -1,1 +1,1 @@
-This Project discussed Pointers, Arrays and Strings
+More on Pointers and Strings
